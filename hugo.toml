@@ -1,0 +1,4 @@
+baseURL = 'https://henryiscooking.com'
+languageCode = 'en-gb'
+title = 'BASED COOKING'
+theme = 'lugo'

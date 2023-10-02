@@ -1,13 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-	<title>BASED COOKING</title>
-	<link>https://henryiscooking.com/tags/</link>
-	<description>Recent content in Tags on BASED COOKING</description>
-	<generator>Hugo -- gohugo.io</generator>
-	<language>en-gb</language>
+    <title>Tags on BASED COOKING</title>
+    <link>https://henryiscooking.com/tags/</link>
+    <description>Recent content in Tags on BASED COOKING</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 01 Oct 2023 22:42:40 +0100</lastBuildDate><atom:link href="https://henryiscooking.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beef</title>
+      <link>https://henryiscooking.com/tags/beef/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/beef/</guid>
+      <description></description>
+    </item>
     
-        <atom:link href="https://henryiscooking.com/tags/index.xml" rel="self" type="application/rss+xml" />
-	
-	
-	</channel>
+    <item>
+      <title>bones</title>
+      <link>https://henryiscooking.com/tags/bones/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/bones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chicken</title>
+      <link>https://henryiscooking.com/tags/chicken/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/chicken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meat</title>
+      <link>https://henryiscooking.com/tags/meat/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/meat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sauce</title>
+      <link>https://henryiscooking.com/tags/sauce/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/sauce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stock</title>
+      <link>https://henryiscooking.com/tags/stock/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/stock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>veal</title>
+      <link>https://henryiscooking.com/tags/veal/</link>
+      <pubDate>Sun, 01 Oct 2023 22:42:40 +0100</pubDate>
+      
+      <guid>https://henryiscooking.com/tags/veal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>

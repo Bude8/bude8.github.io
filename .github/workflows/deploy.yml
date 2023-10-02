@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    name: Upload to Amazon S3
+    runs-on: ubuntu-latest
+    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Configure AWS credentials for S3
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        role-to-assume: ${{ secrets.aws_role_to_assume }}
+        aws-region: eu-west-2
+    - name: Copy files to the bucket with AWS CLI
+      run: |
+        aws s3 sync public ${{ secrets.aws_s3_bucket_name }}

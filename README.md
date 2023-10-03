@@ -1,2 +1,2 @@
-# henry-is-cooking
+# henryiscooking.com
 Based cooking recipes

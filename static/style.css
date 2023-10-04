@@ -5,13 +5,13 @@ body {
 }
 
 a:link {
-  color: #62a2f7;
+  color: #2abcd6;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: #62a2f7;
+  color: #2abcd6;
   background-color: transparent;
   text-decoration: none;
 }
@@ -28,17 +28,40 @@ img {
 header h1 {
 	text-align: center ;
   font-size: 18px ;
+  color: #fb9c63 ;
 }
 
 article h1 {
 	text-align: left ;
   font-size: 16px ;
+  color: #fb9c63 ;
+}
+
+article h2 {
+	text-align: center ;
+  font-size: 18px ;
+  color: #fb9c63 ;
 }
 
 footer {
 	text-align: center ;
 	clear: both ;
 }
+
+#tagcloud {
+	list-style: none ;
+	text-align: center ;
+	padding: 0 ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+}
+
+#tagcloud a {
+	margin: .1em .25em ;
+}
+
 
 /* For TAGLIST.HTML */
 .taglist {
@@ -61,3 +84,49 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+
+input#search {
+  all: unset;
+  background: #222;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search {
+  width: 400px;
+  max-width: 85vw;
+  position: relative;
+  margin: 0.5rem auto 1.2rem;
+  display: flex;
+}
+
+button#clear-search {
+  all: unset;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  height: 30px;
+  width: 30px;
+  color: #888;
+  cursor: pointer;
+  transition: color 180ms ease-in-out;
+}
+button#clear-search:hover {
+  color: #eee;
+}
+
+
+.matched-recipe {
+	font-size: x-large ;
+	display: list-item !important ;
+}
+
+.list-searched {
+	column-count: 1 !important ;
+	list-style: decimal ;
+	max-width: 600px ;
+	margin: auto ;
+}
+

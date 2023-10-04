@@ -22,11 +22,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
+  deploy:
     env:
       HUGO_VERSION: 0.114.0
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
       - name: Install Hugo CLI
         run: |
@@ -42,12 +44,6 @@ jobs:
       - name: Build with Hugo
         run: |
           hugo
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages

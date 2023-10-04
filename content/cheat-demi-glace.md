@@ -1,7 +1,7 @@
 +++
 title = 'Cheat Demi Glace'
 date = 2023-10-01T22:42:40+01:00
-tags = ['stock', 'sauce', 'meat', 'veal', 'chicken', 'beef', 'bones']
+tags = ['stock', 'sauce', 'meat', 'veal', 'chicken', 'beef']
 +++
 
 Demi-glace is a rich, meaty sauce that can be used as the foundation for other sauces.This preparation yields multiple, frozen demi-glace cubes that can be used like a stock cube to kick-start a pan sauce.

@@ -130,3 +130,12 @@ button#clear-search:hover {
 	margin: auto ;
 }
 
+#tag_baking:before { content: "🎂" ; }
+#tag_beef:before { content: "🐄" ; }
+#tag_cake:before { content: "🎂" ; }
+#tag_chicken:before { content: "🐔" ; }
+#tag_lime:before { content: "💚" ; }
+#tag_meat:before { content: "🍖" ; }
+#tag_sauce:before { content: "🍝" ; }
+#tag_stock:before { content: "📈" ; }
+#tag_veal:before { content: "🐄" ; }

@@ -1,7 +1,19 @@
 body {
 	font-family: sans-serif ;
-	background: #110000 ;
-	color: #ccc ;
+	background: #24283b ;
+	color: #c0caf5 ;
+}
+
+a:link {
+  color: #62a2f7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #62a2f7;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 main {
@@ -15,6 +27,12 @@ img {
 
 header h1 {
 	text-align: center ;
+  font-size: 18px ;
+}
+
+article h1 {
+	text-align: left ;
+  font-size: 16px ;
 }
 
 footer {

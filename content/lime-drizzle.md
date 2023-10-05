@@ -9,14 +9,14 @@ Lime, not lemon! This cake packs a nice, zingy punch and is probably my favourit
 It is essential the butter you use is at room temperature. Cold butter leads to a very dense cake.
 
 # Ingredients & mise en place
-175g caster sugar
-175g soft, room temperature, unsalted butter, plus extra for greasing
-grated zest and juice of 4 limes
-4 tbsp (plant-based) milk
-2 large eggs
-175g self raising flour, optionally sifted
-3 tbsp granulated sugar
-2-3 kaffir lime leaves, finely sliced, frozen or fresh
+- 175g caster sugar
+- 175g soft, room temperature, unsalted butter, plus extra for greasing
+- grated zest and juice of 4 limes
+- 4 tbsp (plant-based) milk
+- 2 large eggs
+- 175g self raising flour, optionally sifted
+- 3 tbsp granulated sugar
+- 2-3 kaffir lime leaves, finely sliced, frozen or fresh
 
 # Equipment
 - Stand mixer or electric hand whisk/mixer

@@ -19,4 +19,4 @@ Inspired by Luke Smith's [based cooking website](based.cooking). No ads or bloat
 - [SoyDevs DESTROYED Epic Style by Based Cooking!](https://odysee.com/@Luke:7/soydevs-destroyed-epic-style-by-based:6)
 
 ## Contributing
-New recipes can be submitted on[Github](https://github.com/Bude8/bude8.github.io).
+New recipes can be submitted on [Github](https://github.com/Bude8/bude8.github.io).

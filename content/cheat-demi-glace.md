@@ -54,3 +54,6 @@ Use ~3.5kg total meat/bones - whatever you can find is fine but the chicken wing
 10. Heat the stock in a pan to reduce its volume by about half.
 11. Pour the stock carefully into ice cube trays with a ladle. Once the stock is at ambient temperature, place the trays into the freezer.
 12. When the demi-glace stock cubes are frozen, pop them out into a freezer bag and keep in the freezer.
+
+# Usage
+For one portion of sauce, melt 2 cubes of demi-glace in a saucepan on a low-medium heat - ideally one that has some fond to deglaze. Reduce the sauce to a thicker consistency, flavour with any other components, season with salt, and optionally, finish with butter.

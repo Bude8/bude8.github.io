@@ -2,6 +2,7 @@
 title = 'Lime Drizzle'
 date = 2023-10-04T15:07:04+01:00
 tags = ['cake', 'baking', 'lime']
+foo = ['bar', 'baz']
 +++
 
 Lime, not lemon! This cake packs a nice, zingy punch and is probably my favourite cake of all time.
@@ -25,13 +26,8 @@ It is essential the butter you use is at room temperature. Cold butter leads to 
 - Sieve (optional)
 
 # Timeline
-- Preheat oven, line loaf tin.
-- Create cake batter and transfer to tin.
-- Bake in oven.
-- Make lime syrup, reduce, and allow to cool.
-- Add sugar and zest to syrup.
-- Remove cake from oven, pierce with skewer and drizzle syrup over.
-- Cool completely before serving.
+
+{{< timeline >}}
 
 
 # Method

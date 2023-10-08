@@ -2,3 +2,8 @@ baseURL = 'https://henryiscooking.com'
 languageCode = 'en-gb'
 title = 'BASED COOKING'
 theme = 'lugo'
+[params]
+  taglist = true
+
+[taxonomies]
+  tag = "tags"

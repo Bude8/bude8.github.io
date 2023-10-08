@@ -1,0 +1,195 @@
+body {
+	font-family: sans-serif ;
+	background: #24283b ;
+	color: #c0caf5 ;
+  
+}
+
+a:link {
+  color: #2abcd6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2abcd6;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+img {
+	max-width: 100% ;
+}
+
+header h1 {
+	text-align: center ;
+  font-size: 18px ;
+  color: #fb9c63 ;
+}
+
+article h1 {
+	text-align: left ;
+  font-size: 16px ;
+  color: #fb9c63 ;
+}
+
+article h2 {
+	text-align: center ;
+  font-size: 18px ;
+  color: #fb9c63 ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+#tagcloud {
+	list-style: none ;
+	text-align: center ;
+	padding: 0 ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+}
+
+#tagcloud a {
+	margin: .1em .25em ;
+}
+
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
+
+input#search {
+  all: unset;
+  background: #222;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search {
+  width: 400px;
+  max-width: 85vw;
+  position: relative;
+  margin: 0.5rem auto 1.2rem;
+  display: flex;
+}
+
+button#clear-search {
+  all: unset;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  height: 30px;
+  width: 30px;
+  color: #888;
+  cursor: pointer;
+  transition: color 180ms ease-in-out;
+}
+button#clear-search:hover {
+  color: #eee;
+}
+
+
+.matched-recipe {
+	font-size: x-large ;
+	display: list-item !important ;
+}
+
+.list-searched {
+	column-count: 1 !important ;
+	list-style: decimal ;
+	max-width: 600px ;
+	margin: auto ;
+}
+
+#tag_baking:before { content: "🎂" ; }
+#tag_beef:before { content: "🐄" ; }
+#tag_cake:before { content: "🎂" ; }
+#tag_chicken:before { content: "🐔" ; }
+#tag_lime:before { content: "💚" ; }
+#tag_meat:before { content: "🍖" ; }
+#tag_sauce:before { content: "🍝" ; }
+#tag_stock:before { content: "📈" ; }
+#tag_veal:before { content: "🐄" ; }
+
+.timeline {
+  position: relative;
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0px;
+  /* padding: 0; */
+  height: 240px;
+}
+
+.timeline li {
+  margin: 0 20px;
+  /* min-width: 200px */
+  text-align: center;
+  align-self: flex-start;
+}
+
+/*  top/bottom split */
+/* .timeline li:nth-child(2n) { align-self: flex-end;  } */
+
+.timeline div {
+  position: relative;
+  /* padding: 10px; makes it look weird */
+  /* border: 1px black solid; doesnt seem necessary*/
+}
+
+/* style for the dot over the timeline */
+.timeline li:before {
+  content: "";
+  position: absolute;
+  top: 55%;
+  /* margin-left: 100px */
+  transform: translate(-50%); /* micro-adjust dot*/
+  border: 1px #fb9c63 solid;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fb9c63;
+
+}
+
+/* middle line */
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: calc(57%);
+  width: 100%;
+  height: 2px;
+  background-color: #c0caf5;
+  transform: translate(0, 50%);
+}

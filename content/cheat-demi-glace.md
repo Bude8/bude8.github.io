@@ -1,8 +1,19 @@
-+++
-title = 'Cheat Demi Glace'
-date = 2023-10-01T22:42:40+01:00
-tags = ['stock', 'sauce', 'meat', 'veal', 'chicken', 'beef']
-+++
+---
+title: 'Cheat Demi Glace'
+date: 2023-10-01T22:42:40+01:00
+tags: ['stock', 'sauce', 'meat', 'veal', 'chicken', 'beef']
+timeline:
+- Chop vegetables.
+- Prep roasting tray with oil, tomato paste, vegetables and meat/bones. Start pressure cooker.
+- Add vegetables and bones to pressure cooker.
+- Pressure cook on high for 90 minutes.
+- Skim and strain the solids out.
+- Cool stock and refrigerate overnight.
+- Skim solidified fat.
+- Reduce to half of the original volume.
+- Pour into ice cube trays and freeze overnight.
+- Pop demi-glace out of ice cube trays into a freezer friendly bag and keep frozen.
+---
 
 Demi-glace is a rich, meaty sauce that can be used as the foundation for other sauces.This preparation yields multiple, frozen demi-glace cubes that can be used like a stock cube to kick-start a pan sauce.
 
@@ -30,16 +41,7 @@ Use ~3.5kg total meat/bones - whatever you can find is fine but the chicken wing
 - Ice cube trays
 
 # Timeline
-- Chop vegetables.
-- Prep roasting tray with oil, tomato paste, vegetables and meat/bones. Start pressure cooker.
-- Add vegetables and bones to pressure cooker.
-- Pressure cook on high for 90 minutes.
-- Skim and strain the solids out.
-- Cool stock and refrigerate overnight.
-- Skim solidified fat.
-- Reduce to half of the original volume.
-- Pour into ice cube trays and freeze overnight.
-- Pop demi-glace out of ice cube trays into a freezer friendly bag and keep frozen.
+{{< timeline >}}
 
 # Method
 1. Preheat the oven to 240°C (220°C convection).

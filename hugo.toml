@@ -4,6 +4,7 @@ title = 'BASED COOKING'
 theme = 'lugo'
 [params]
   taglist = true
+  foo = ['bar', 'baz']
 
 [taxonomies]
   tag = "tags"

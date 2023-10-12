@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif ;
 	background: #24283b ;
 	color: #c0caf5 ;
+  
 }
 
 a:link {
@@ -27,14 +28,13 @@ img {
 
 header h1 {
 	text-align: center ;
-  font-size: 26px ;
+  font-size: 18px ;
   color: #fb9c63 ;
-  border-bottom: 1px solid #fb9c63 ;
 }
 
 article h1 {
-	text-align: center ;
-  font-size: 20px ;
+	text-align: left ;
+  font-size: 16px ;
   color: #fb9c63 ;
 }
 
@@ -120,7 +120,7 @@ button#clear-search:hover {
 
 
 .matched-recipe {
-	font-size: 16px ;
+	font-size: x-large ;
 	display: list-item !important ;
 }
 
@@ -131,8 +131,17 @@ button#clear-search:hover {
 	margin: auto ;
 }
 
+#tag_baking:before { content: "🎂" ; }
+#tag_beef:before { content: "🐄" ; }
+#tag_cake:before { content: "🎂" ; }
+#tag_chicken:before { content: "🐔" ; }
+#tag_lime:before { content: "💚" ; }
+#tag_meat:before { content: "🍖" ; }
+#tag_sauce:before { content: "🍝" ; }
+#tag_stock:before { content: "📈" ; }
+#tag_veal:before { content: "🐄" ; }
+
 .timeline {
-	max-width: 800px ;
   position: relative;
   list-style: none;
   display: inline-flex;
@@ -171,6 +180,7 @@ button#clear-search:hover {
   height: 10px;
   border-radius: 50%;
   background-color: #fb9c63;
+
 }
 
 /* middle line */
@@ -183,13 +193,3 @@ button#clear-search:hover {
   background-color: #c0caf5;
   transform: translate(0, 50%);
 }
-
-#tag_baking:before { content: "🎂" ; }
-#tag_beef:before { content: "🐄" ; }
-#tag_cake:before { content: "🎂" ; }
-#tag_chicken:before { content: "🐔" ; }
-#tag_lime:before { content: "💚" ; }
-#tag_meat:before { content: "🍖" ; }
-#tag_sauce:before { content: "🍝" ; }
-#tag_stock:before { content: "📈" ; }
-#tag_veal:before { content: "🐄" ; }

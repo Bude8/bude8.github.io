@@ -1,0 +1,10 @@
+<ul class="timeline">
+  {{ range .Page.Params.timeline }}
+	<li>
+		<div>
+      <p>{{ . }}</p>
+		</div>
+	</li>
+  {{ end }}
+</ul>
+
